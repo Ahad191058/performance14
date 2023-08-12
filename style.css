@@ -1,0 +1,64 @@
+a:link {
+    color: green;
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    background-color: black;
+    color: white;
+}
+
+a:active {
+    background-color: red;
+}
+
+#a1 {
+    text-decoration: none;
+    background: blue;
+    padding: 10px;
+    display: inline-block;
+    border: 2px solid blue;
+    margin-top: 5px;
+}
+
+.list1{
+    list-style-type:circle;
+    list-style-position: outside;
+}
+
+.list2{
+    list-style-type:square;
+    list-style-image:url(P.jpeg);
+}
+
+.list3{
+    list-style-type:circle;
+    list-style-position: outside;
+    background: green;
+}
+.list3 li{
+    background-color: burlywood;
+    padding: 5px;
+    margin: 2px;
+}
+
+table{
+    width: 80%;
+}
+table,th,td{
+    border: 2px solid blue;
+}
+th{
+    height: 50px;
+}
+td{
+    height:50px;
+    text-align:center;
+    vertical-align: baseline;
+}
+tr:nth-child(even){
+    background: gray;
+}
